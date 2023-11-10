@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <title>Frontend Mentor | Four card feature section</title>
+</head>
+<body class="font-poppins">
+  <header class="text-center px-8">
+    <h2 class="text-stone-500 pt-20 pb-2 font-light md:text-3xl text-2xl">Reliable, efficient delivery</h2>
+    <h2 class="font-semibold text-slate-900 md:text-3xl text-2xl">Powered by Technology</h2>
+    <p class="pt-4 text-stone-300 md:text-sm mx-auto max-w-md text-xs">Our Artificial Intelligence powered tools use millions of project data points 
+      to ensure that your project is successful</p>
+  </header>
+  <main>
+    <section class="flex flex-col gap-10 py-32 px-4 xl:flex-row xl:items-center">
+      <div class="card max-w-sm max-h-56 flex flex-col mx-auto p-8 rounded-md shadow-2xl border-t-4 border-cyan-400 hover:translate-y-2 transition-all hover:shadow-2xl hover:shadow-cyan-400">
+        <h4 class="text-xl font-semibold">Supervisor</h4>
+        <p class="text-sm pt-2 text-stone-400">Monitors activity to identify project roadblocks</p>
+        <img class=" w-14 pt-8 self-end" src="./images/icon-supervisor.svg" alt="">
+      </div>
+      <div class="gap-10 flex flex-col mx-auto ">
+        <div class="card max-w-sm max-h-56 flex flex-col mx-auto p-8 rounded-md shadow-2xl border-t-4 border-red-500 hover:translate-y-2 transition-all hover:shadow-2xl hover:shadow-red-500">
+          <h4 class="text-xl font-semibold">Team Builder</h4>
+        <p class="text-sm text-stone-400">Scans our talent network to create the optimal team for your project</p>
+        <img class=" w-14 pt-8 self-end" src="./images/icon-team-builder.svg" alt="">
+        </div>
+        <div class="card max-w-sm max-h-56  flex flex-col mx-auto p-8 rounded-md shadow-2xl border-t-4 border-orange-300 hover:translate-y-2 transition-all hover:shadow-2xl hover:shadow-orange-300">
+          <h4 class="text-xl font-semibold">Karma</h4>
+        <p class="pt-2 text-stone-400"">Regularly evaluates our talent to ensure quality</p>
+        <img class=" w-14 pt-8 self-end" src="./images/icon-karma.svg" alt="">
+        </div>
+      </div>
+      <div class="card max-w-sm max-h-56  flex flex-col mx-auto p-8 rounded-md shadow-2xl border-t-4 border-blue-400 hover:translate-y-2 transition-all hover:shadow-2xl hover:shadow-blue-400">
+        <h4 class="text-xl font-semibold">Calculator</h4>
+        <p class="pt-2 text-stone-400"">Uses data from past projects to provide better delivery estimates</p>
+        <img class=" w-14 pt-8 self-end" src="./images/icon-calculator.svg" alt="">    
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="text-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a class="text-stone-600 font-semibold" href="https://github.com/leandro-cajal">Leandro Cajal</a>.
+    </p>
+  </footer>
+</body>
+</html>
